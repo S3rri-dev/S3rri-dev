@@ -6,5 +6,6 @@
 - Tipografía de las cabeceras: Arial/Helvetica y Menlo/Consolas, con alternativas del sistema.
 - Las capturas enlazadas pertenecen a los repositorios Nodal y Caudal y utilizan datos ficticios. Cada aplicación conserva su propia identidad.
 - Tarjetas para compartir: composiciones originales de texto y geometría, 1280 × 640, generadas con AppKit mediante `swift scripts/render_social.swift`. No contienen capturas simuladas ni modifican el avatar.
+- Enlaces sociales: botones SVG locales originales con glifos de Bootstrap Icons bajo licencia MIT; [procedencia y licencia](icons/README.md). Se regeneran con `python3 scripts/render_social_links.py`. LinkedIn e Instagram son las redes confirmadas por el titular; el correo es una vía de contacto.
 
 Los recursos de identidad no conceden representación de S3rri ni implican registro de marca.

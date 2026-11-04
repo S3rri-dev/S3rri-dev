@@ -6,7 +6,13 @@
 
 Construyo aplicaciones para resolver problemas concretos. Me interesa conectar **desarrollo de software, datos e integración de sistemas**, desde el comportamiento de una interfaz hasta la persistencia que la sostiene.
 
-**[Proyectos](#proyectos-destacados)** · **[Experiencia técnica](#de-la-aviónica-al-software)** · **[LinkedIn](https://www.linkedin.com/in/luis-serrano-cardoso-51809419b/)** · **[Contacto](mailto:s3rri.dev@gmail.com)**
+**[Proyectos](#proyectos-destacados)** · **[Experiencia técnica](#de-la-aviónica-al-software)** · **[Contacto](#hablemos)**
+
+<p>
+<a href="https://www.linkedin.com/in/luis-serrano-cardoso-51809419b/" title="LinkedIn · Luis Serrano Cardoso"><img src="assets/social-linkedin.svg" width="100" height="36" alt="LinkedIn · Luis Serrano Cardoso"></a>
+<a href="https://www.instagram.com/serri.18/" title="Instagram · @serri.18"><img src="assets/social-instagram.svg" width="110" height="36" alt="Instagram · @serri.18"></a>
+<a href="mailto:s3rri.dev@gmail.com" title="Escribir a s3rri.dev@gmail.com"><img src="assets/social-email.svg" width="86" height="36" alt="Correo · s3rri.dev@gmail.com"></a>
+</p>
 
 ## Proyectos destacados
 
@@ -77,6 +83,10 @@ Esa experiencia orienta mi interés por la integración, las comunicaciones y la
 
 Estoy orientando mi carrera hacia oportunidades de **desarrollo de software e integración de sistemas**. Este perfil reúne proyectos que permiten revisar mi trabajo y conversar sobre sus decisiones técnicas.
 
-**[s3rri.dev@gmail.com](mailto:s3rri.dev@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/luis-serrano-cardoso-51809419b/)**
+<p>
+<a href="https://www.linkedin.com/in/luis-serrano-cardoso-51809419b/" title="LinkedIn · Luis Serrano Cardoso"><img src="assets/social-linkedin.svg" width="100" height="36" alt="LinkedIn · Luis Serrano Cardoso"></a>
+<a href="https://www.instagram.com/serri.18/" title="Instagram · @serri.18"><img src="assets/social-instagram.svg" width="110" height="36" alt="Instagram · @serri.18"></a>
+<a href="mailto:s3rri.dev@gmail.com" title="Escribir a s3rri.dev@gmail.com"><img src="assets/social-email.svg" width="86" height="36" alt="Correo · s3rri.dev@gmail.com"></a>
+</p>
 
 <img src="assets/footer.svg" width="100%" alt="S3rri.dev · Software, datos, sistemas.">

@@ -6,7 +6,13 @@
 
 I build applications around practical problems. My interests connect **software development, data and systems integration**, from interface behaviour to the persistence layer underneath it.
 
-**[Projects](#selected-projects)** · **[Technical experience](#from-avionics-to-software)** · **[LinkedIn](https://www.linkedin.com/in/luis-serrano-cardoso-51809419b/)** · **[Contact](mailto:s3rri.dev@gmail.com)**
+**[Projects](#selected-projects)** · **[Technical experience](#from-avionics-to-software)** · **[Contact](#get-in-touch)**
+
+<p>
+<a href="https://www.linkedin.com/in/luis-serrano-cardoso-51809419b/" title="LinkedIn · Luis Serrano Cardoso"><img src="assets/social-linkedin.svg" width="100" height="36" alt="LinkedIn · Luis Serrano Cardoso"></a>
+<a href="https://www.instagram.com/serri.18/" title="Instagram · @serri.18"><img src="assets/social-instagram.svg" width="110" height="36" alt="Instagram · @serri.18"></a>
+<a href="mailto:s3rri.dev@gmail.com" title="Email s3rri.dev@gmail.com"><img src="assets/social-email.en.svg" width="86" height="36" alt="Email · s3rri.dev@gmail.com"></a>
+</p>
 
 ## Selected projects
 
@@ -77,6 +83,10 @@ This experience informs my interest in integration, communications and systems t
 
 I am building my career towards **software development and systems integration**. These projects provide a concrete starting point for discussing my work and technical decisions.
 
-**[s3rri.dev@gmail.com](mailto:s3rri.dev@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/luis-serrano-cardoso-51809419b/)**
+<p>
+<a href="https://www.linkedin.com/in/luis-serrano-cardoso-51809419b/" title="LinkedIn · Luis Serrano Cardoso"><img src="assets/social-linkedin.svg" width="100" height="36" alt="LinkedIn · Luis Serrano Cardoso"></a>
+<a href="https://www.instagram.com/serri.18/" title="Instagram · @serri.18"><img src="assets/social-instagram.svg" width="110" height="36" alt="Instagram · @serri.18"></a>
+<a href="mailto:s3rri.dev@gmail.com" title="Email s3rri.dev@gmail.com"><img src="assets/social-email.en.svg" width="86" height="36" alt="Email · s3rri.dev@gmail.com"></a>
+</p>
 
 <img src="assets/footer.svg" width="100%" alt="S3rri.dev · Software, data, systems.">

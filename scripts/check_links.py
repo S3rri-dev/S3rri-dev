@@ -27,7 +27,7 @@ for document in ROOT.rglob("*.md"):
         candidate = (document.parent / unquote(parsed.path)).resolve()
         if not candidate.is_relative_to(ROOT) or not candidate.exists():
             errors.append(f"{document.relative_to(ROOT)}: missing local target {target}")
-for asset in (ROOT / "assets").glob("*.svg"):
+for asset in (ROOT / "assets").rglob("*.svg"):
     tree = ET.parse(asset)
     for element in tree.iter():
         if element.tag.rsplit("}", 1)[-1] in {"script", "foreignObject"}:
