@@ -23,6 +23,14 @@ La vista de teléfono es una comprobación de tamaño de navegador, no una prueb
 
 Las capturas de evidencia están en output/, fuera de Git. Los recursos públicos y su procedencia se describen en [assets/README.md](../assets/README.md).
 
+## Actualización de enlaces sociales
+
+Instagram se añadió como segunda red pública, conservando LinkedIn. Se comprobó en Safari el icono nativo de Instagram y el enlace serri.18, además de los botones de LinkedIn, Instagram y correo en la portada real de GitHub.
+
+Los README español e inglés incluyen los mismos destinos y botones locales, con etiqueta de correo traducida. Se revisaron ambos grupos en Safari dentro de un contenedor de 308 px; los tres botones caben en una fila y los símbolos y textos se dibujan sin recortes. Es una previsualización compacta de los componentes.
+
+El perfil sin autenticación respondió HTTP 200 y contenía el enlace de Instagram y el nuevo marcado. Los cuatro recursos SVG publicados respondieron HTTP 200. scripts/check_links.py comprobó 30 enlaces locales y todos los SVG, incluidos los glifos anidados. Licencia MIT y procedencia incluidas en assets/icons/.
+
 ## Aplicaciones enlazadas
 
 Nodal: 135 comprobaciones Swift y 50 JavaScript, compilación y auditoría de fuentes/bundle correctas. [Informe](https://github.com/S3rri-dev/nodal/blob/main/docs/VERIFICATION.md).

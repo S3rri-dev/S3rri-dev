@@ -1,5 +1,13 @@
 # Seguimiento del perfil S3rri
 
+## 4 de noviembre de 2026 — redes sociales
+
+Se añade Instagram, con el enlace aportado por el titular, como segunda red en los campos públicos de GitHub. GitHub representa su icono junto al enlace. Se añaden botones con iconos de LinkedIn, Instagram y correo a la introducción y al contacto de los README español e inglés.
+
+Los botones son SVG locales con colores del perfil y nombres accesibles. Tres glifos de Bootstrap Icons se conservan fijados por commit, con licencia MIT incluida; la composición se regenera mediante scripts/render_social_links.py.
+
+Comprobaciones: 30 enlaces locales y SVG válidos; perfil público sin sesión HTTP 200, con Instagram y el nuevo marcado visibles; los cuatro SVG de botones responden HTTP 200. Revisión real de GitHub en Safari y previsualización de los componentes en un contenedor de 308 px, español e inglés, sin recortes. Capturas guardadas en output/, excluido de Git.
+
 ## 4 de noviembre de 2026
 
 Publicado el repositorio especial S3rri-dev/S3rri-dev como portada del perfil. Enfoque elegido: desarrollo de software e integración de sistemas, con formación de Ingeniería Telemática y experiencia en aviónica de UAH MotorSport.
