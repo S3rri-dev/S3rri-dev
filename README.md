@@ -53,10 +53,9 @@ Las imágenes muestran datos ficticios. Las dos descargas empiezan vacías. Cada
 
 ## Qué puedes revisar
 
-| Diseño de dominio | Integración | Verificación |
-| --- | --- | --- |
-| Reglas y estados explícitos; validación en el almacén. | Interfaz WebKit, puente Swift y SQLite del sistema. | Pruebas reproducibles, documentación de resultados y límites conocidos. |
-| [Importaciones de Nodal](https://github.com/S3rri-dev/nodal/blob/main/Sources/Import.swift) | [Arquitectura de Nodal](https://github.com/S3rri-dev/nodal/blob/main/docs/ARCHITECTURE.md) | [Pruebas de Caudal](https://github.com/S3rri-dev/caudal/blob/main/tests/main.swift) |
+- **Diseño de dominio.** Reglas y estados explícitos, con validación en el almacén. [Importaciones de Nodal](https://github.com/S3rri-dev/nodal/blob/main/Sources/Import.swift).
+- **Integración.** Interfaz WebKit, puente Swift y SQLite del sistema. [Arquitectura de Nodal](https://github.com/S3rri-dev/nodal/blob/main/docs/ARCHITECTURE.md).
+- **Verificación.** Comprobaciones reproducibles, resultados y límites documentados. [Pruebas de Caudal](https://github.com/S3rri-dev/caudal/blob/main/tests/main.swift).
 
 Son proyectos personales desarrollados con asistencia de IA. El código, las decisiones y las comprobaciones están disponibles para revisión; el estado de CI se consulta en cada repositorio.
 

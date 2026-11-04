@@ -53,10 +53,9 @@ Screenshots use fictional data. Both downloads start empty. Their repositories d
 
 ## What you can inspect
 
-| Domain design | Integration | Verification |
-| --- | --- | --- |
-| Explicit rules and states; validation in the store. | A WebKit interface connected to Swift and system SQLite. | Reproducible checks, recorded results and known limitations. |
-| [Nodal imports](https://github.com/S3rri-dev/nodal/blob/main/Sources/Import.swift) | [Nodal architecture](https://github.com/S3rri-dev/nodal/blob/main/docs/ARCHITECTURE.md) | [Caudal tests](https://github.com/S3rri-dev/caudal/blob/main/tests/main.swift) |
+- **Domain design.** Explicit rules and states, validated in the store. [Nodal imports](https://github.com/S3rri-dev/nodal/blob/main/Sources/Import.swift).
+- **Integration.** A WebKit interface connected to Swift and system SQLite. [Nodal architecture](https://github.com/S3rri-dev/nodal/blob/main/docs/ARCHITECTURE.md).
+- **Verification.** Reproducible checks, recorded results and known limitations. [Caudal tests](https://github.com/S3rri-dev/caudal/blob/main/tests/main.swift).
 
 These are personal projects developed with AI assistance. Source, design decisions and verification are open to review; CI status is available in each repository.
 
