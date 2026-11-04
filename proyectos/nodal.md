@@ -54,7 +54,7 @@ Swift/AppKit y las bibliotecas del sistema permiten una aplicación autónoma pa
 
 La publicación inicial tiene firma ad hoc, sin Developer ID ni notarización. El objetivo de compilación no acredita pruebas físicas en todas las versiones de macOS. Las pruebas locales y las ejecuciones de [CI](https://github.com/S3rri-dev/nodal/actions/workflows/ci.yml) son evidencias diferentes; su estado vigente se documenta en el repositorio.
 
-Proyecto personal desarrollado con asistencia de IA. Esta ficha explica decisiones y rutas de revisión del código publicado; no certifica experiencia profesional en producción.
+Proyecto personal desarrollado con asistencia de IA. Las decisiones y resultados de esta ficha remiten a la implementación y a las comprobaciones documentadas.
 
 ## English
 

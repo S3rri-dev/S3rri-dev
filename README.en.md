@@ -20,9 +20,9 @@ I build applications around practical problems. My interests connect **software 
 
 **A local academic organiser for Mac.**
 
-Calendar, tasks, study time and grades. XML plan updates with preview, transactions and preservation of user progress.
+Calendar, tasks, study time and grades. Update plans while preserving user progress.
 
-**Engineering focus:** keeping plans, local edits and user records separate during imports.
+**Engineering focus:** XML/XSD imports with preview and transactions.
 
 `Swift` `AppKit` `WebKit` `SQLite` `XML/XSD`
 
@@ -37,9 +37,9 @@ Calendar, tasks, study time and grades. XML plan updates with preview, transacti
 
 **Local personal finance for Mac.**
 
-Income, expenses, budgets, savings and debt. Manual entry, CSV export and SQLite backups with restore preview.
+Manual income, budgets, savings and debt. SQLite backups and CSV export.
 
-**Engineering focus:** preserving balance consistency across transfers, principal repayments, interest and savings reservations.
+**Engineering focus:** integer cents and separate handling of principal, interest and transfers.
 
 `Swift` `AppKit` `WebKit` `SQLite` `CSV`
 

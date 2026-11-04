@@ -20,9 +20,9 @@ Construyo aplicaciones para resolver problemas concretos. Me interesa conectar *
 
 **Organización académica local para Mac.**
 
-Calendario, tareas, tiempo de estudio y notas. Actualiza planes mediante XML con vista previa, transacciones y conservación del progreso.
+Calendario, tareas, estudio y notas. Actualización de planes sin perder el progreso.
 
-**Reto técnico:** separar lo planificado, las ediciones locales y los registros de uso sin perder información al importar.
+**Reto técnico:** importaciones XML/XSD con vista previa y transacciones.
 
 `Swift` `AppKit` `WebKit` `SQLite` `XML/XSD`
 
@@ -37,9 +37,9 @@ Calendario, tareas, tiempo de estudio y notas. Actualiza planes mediante XML con
 
 **Finanzas personales locales para Mac.**
 
-Ingresos, gastos, presupuestos, ahorro y deudas. Registro manual, exportación CSV y copias SQLite con restauración revisable.
+Registro manual de ingresos, presupuestos, ahorro y deudas. Copias SQLite y exportación CSV.
 
-**Reto técnico:** conservar la coherencia del saldo al distinguir transferencias, principal, intereses y reservas de ahorro.
+**Reto técnico:** céntimos enteros y separación de principal, intereses y transferencias.
 
 `Swift` `AppKit` `WebKit` `SQLite` `CSV`
 

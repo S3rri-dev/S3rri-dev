@@ -61,7 +61,7 @@ El enfoque local elimina la necesidad de cuentas de acceso y de un servidor. A c
 
 La publicación inicial está firmada ad hoc, sin Developer ID ni notarización. No se presenta como un producto auditado financieramente ni como software probado en todos los Mac. El resultado de [CI](https://github.com/S3rri-dev/caudal/actions/workflows/ci.yml) y las pruebas locales se consultan por separado en el repositorio.
 
-Proyecto personal desarrollado con asistencia de IA. Esta ficha explica un modelo de software; no ofrece asesoramiento financiero ni acredita experiencia profesional en sistemas bancarios.
+Proyecto personal desarrollado con asistencia de IA. Las decisiones y resultados de esta ficha remiten a la implementación y a las comprobaciones documentadas.
 
 ## English
 
