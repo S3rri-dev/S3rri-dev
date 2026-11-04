@@ -46,3 +46,21 @@ Las ejecuciones remotas revisadas (Nodal 41837435429 y Caudal 41842987922) termi
     swift scripts/render_social.swift
 
 Después de publicar, revisar el perfil en GitHub, sus enlaces de descarga, la versión inglesa y los casos [Nodal](../proyectos/nodal.md) y [Caudal](../proyectos/caudal.md). La representación real en GitHub es la referencia para las limitaciones de Markdown y HTML.
+
+## Cabecera animada y calendario público
+
+Se publican composiciones originales, sin dependencia de GitSkins: gato aprobado con barrido de 2,3 segundos, nombre con entrada progresiva y panel de contribuciones. Cada composición cuenta con versiones de escritorio/móvil, español/inglés y movimiento/estática. Ocho archivos estáticos no contienen keyframes. El PNG original del avatar no cambia; las cabeceras incorporan una miniatura PNG de 480 px, sin recursos anidados externos.
+
+Comprobaciones realizadas:
+
+- Seis pruebas de integridad superadas: calendario completo, separadores de millares, exclusión de futuros, rechazo de duplicados, huecos, etiquetas desconocidas, niveles incoherentes y totales incorrectos.
+- Generación reproducible de las 16 tarjetas y del documento textual de actividad; XML y 50 referencias locales correctos. Los 16 SVG publicados responden HTTP 200 y coinciden con los generados.
+- GitHub real, escritorio con ancho observado de 1163 px: cabecera, gato y contactos visibles. Todas las imágenes del README cargan.
+- GitHub real, 390 px: documento y scrollWidth de 390; tablas de 308 px sin desbordamiento. Las imágenes de portada y calendario eligen las variantes móviles y cargan correctamente. También se comprueba la presentación inglesa.
+- Inicio y final de la animación observados en navegador. Las variantes estáticas se representan correctamente; GitHub conserva los source/media para movimiento reducido. No se modifican preferencias del sistema ni se declara una prueba con la preferencia del sistema activada.
+- Contraste sobre negro: marfil 19:1, dorado 8,55:1, texto secundario 10,56:1 y celda activa roja 4,07:1. La actividad también tiene totales y tabla textual accesibles en docs/ACTIVITY.md. Es una revisión limitada, no una auditoría completa WCAG.
+- Primera ejecución de [actualización automática](https://github.com/S3rri-dev/S3rri-dev/actions/runs/41884194589): success, todos los pasos ejecutados. El bot publica adcd7a0 con captura de las 19:08 Europe/Madrid. No se atribuyen al titular los commits automáticos.
+
+El workflow se programa diariamente a las 06:23 UTC; GitHub puede retrasarlo. Consulta solo el calendario anónimo público, sin tokens. Valida antes de guardar y no publica si cualquier comprobación falla. En ese caso se conserva la última captura válida, con su fecha visible. La fecha y los recuentos vigentes se consultan en [Actividad](ACTIVITY.md), sin duplicarlos aquí como un dato permanente.
+
+Evidencia local en output/perfil-animado-publicado.jpg, output/perfil-animado-movil.jpg y output/actividad-publica-movil.jpg, excluida de Git. La vista móvil es un tamaño de navegador, no una prueba en teléfono físico. La CI de las aplicaciones no se ha modificado con este trabajo.

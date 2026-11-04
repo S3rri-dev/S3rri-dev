@@ -3,7 +3,7 @@
 
 Actualización: **04.11.2026 · 19:08 CET**, Europe/Madrid. Periodo inclusivo: **2025-11-05 — 2026-11-04**, 365 días.
 
-**17 contribuciones públicas · 1 días con actividad.**
+**17 contribuciones públicas · 1 día con actividad.**
 
 | Fecha | Contribuciones |
 | --- | ---: |
@@ -39,7 +39,7 @@ El PNG de 480 px es solo una miniatura del avatar aprobado, preparada con `swift
 
 Updated **04.11.2026 · 19:08 CET**, Europe/Madrid. Inclusive range: **2025-11-05 — 2026-11-04**, 365 days.
 
-**17 public contributions · 1 active days.** The dated table above lists every nonzero day; all other dates in the range have zero contributions in the source. [Full accessible data](../data/activity.json).
+**17 public contributions · 1 active day.** The dated table above lists every nonzero day; all other dates in the range have zero contributions in the source. [Full accessible data](../data/activity.json).
 
 The source is GitHub's anonymous public calendar. No token, private repository access or third-party card service is used. Contributions are activity, not working hours or a quality score. GitHub may delay or revise counts. The daily workflow keeps the last valid snapshot when fetching or validation fails; its visible timestamp remains unchanged. Automated commits use github-actions[bot], not the account owner's identity.
 
