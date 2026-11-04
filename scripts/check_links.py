@@ -4,6 +4,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import re
 import sys
+import base64
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,7 +16,7 @@ for document in ROOT.rglob("*.md"):
         continue
     text = document.read_text()
     targets = re.findall(r"!?\[[^\]]*\]\(([^\s)]+)\)", text)
-    targets += re.findall(r'(?:src|href)="([^"]+)"', text)
+    targets += re.findall(r'(?:src|href|srcset)="([^"]+)"', text)
     for target in targets:
         parsed = urlsplit(target)
         if parsed.scheme in {"http", "https"}:
@@ -34,7 +35,21 @@ for asset in (ROOT / "assets").rglob("*.svg"):
             errors.append(f"{asset.name}: active SVG content")
         for key, value in element.attrib.items():
             if key.rsplit("}", 1)[-1] == "href" and not value.startswith("#"):
-                errors.append(f"{asset.name}: external SVG reference")
+                # SVG images cannot load external nested resources on GitHub.
+                # Permit only the packaged, bounded PNG, never arbitrary data content.
+                if value.startswith("data:image/png;base64,"):
+                    try:
+                        data = base64.b64decode(value.split(",", 1)[1], validate=True)
+                        if not data.startswith(b"\x89PNG\r\n\x1a\n") or len(data) > 250_000:
+                            raise ValueError("invalid PNG")
+                    except ValueError:
+                        errors.append(f"{asset.name}: invalid embedded PNG")
+                else:
+                    errors.append(f"{asset.name}: external SVG reference")
+        if element.tag.rsplit("}", 1)[-1] == "style":
+            css = element.text or ""
+            if "@import" in css or re.search(r"url\(\s*['\"]?(?!#)", css):
+                errors.append(f"{asset.name}: external CSS reference")
 if "--list-remote" in sys.argv:
     print("\n".join(sorted(external)))
 else:

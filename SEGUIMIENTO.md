@@ -1,5 +1,15 @@
 # Seguimiento del perfil S3rri
 
+## 4 de noviembre de 2026 — cabecera animada y actividad
+
+Se implementa una cabecera original con el gato aprobado, barrido de revelado e introducción progresiva de S3rri.dev. Se generan composiciones específicas de escritorio y móvil, español e inglés, y alternativas estáticas por preferencia de movimiento reducido. El barrido dura 2,3 segundos contando el retardo; no se repite. El PNG original del avatar permanece intacto.
+
+El panel utiliza 365 fechas del calendario anónimo público de GitHub, sin token ni acceso privado. La captura inicial contiene 17 contribuciones en un día activo; los valores y la fecha se generan desde data/activity.json. El documento docs/ACTIVITY.md ofrece totales y tabla textual accesibles. No se infieren horas ni calidad.
+
+Se prepara actualización diaria mediante GitHub Actions en Ubuntu, Python estándar, acción checkout fijada por SHA e identidad github-actions[bot]. El proceso valida integridad antes de guardar y solo publica si terminan las comprobaciones. Publicación y ejecución remota pendientes de verificar en este punto del registro.
+
+Comprobaciones locales: seis pruebas de integridad de datos superadas; 50 referencias locales y SVG válidos; generación reproducible; ocho variantes estáticas sin keyframes. Contraste sobre negro: marfil 19:1, dorado 8,55:1, texto secundario 10,56:1; celda activa roja 4,07:1. Revisión visual del inicio y final de la animación, y composición móvil cargada con todos los recursos. No se declara auditoría completa de accesibilidad ni prueba en teléfono físico.
+
 ## 4 de noviembre de 2026 — redes sociales
 
 Se añade Instagram, con el enlace aportado por el titular, como segunda red en los campos públicos de GitHub. GitHub representa su icono junto al enlace. Se añaden botones con iconos de LinkedIn, Instagram y correo a la introducción y al contacto de los README español e inglés.

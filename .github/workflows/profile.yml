@@ -1,0 +1,49 @@
+name: Actualizar actividad pública
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/profile_data.py'
+      - 'scripts/render_profile.py'
+      - 'scripts/check_links.py'
+      - 'tests/**'
+      - '.github/workflows/profile.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Obtener perfil
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+      - name: Descargar calendario anónimo y generar tarjetas
+        run: |
+          python3 scripts/profile_data.py
+          python3 -m unittest discover -s tests -v
+          python3 scripts/render_profile.py
+          python3 scripts/render_profile.py --check
+          python3 scripts/check_links.py
+      - name: Publicar únicamente los datos y recursos generados
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/activity.json assets/header*.svg assets/activity*.svg docs/ACTIVITY.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualizar calendario público [skip ci]'
+            git push origin HEAD:main
+          fi

@@ -1,6 +1,11 @@
 <p align="right"><a href="README.md">Español</a> · English</p>
 
-<img src="assets/header.en.svg" width="100%" alt="S3rri.dev · Software and systems. Model, build, verify.">
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/header.en.mobile.static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header.en.static.svg">
+  <source media="(max-width: 600px)" srcset="assets/header.en.mobile.svg">
+  <img src="assets/header.en.svg" width="100%" alt="S3rri.dev · Software and systems. Model, build, verify.">
+</picture>
 
 **Luis Serrano Cardoso** · Telematics Engineering student at the University of Alcalá, Spain.
 
@@ -78,6 +83,17 @@ This experience informs my interest in integration, communications and systems t
 | Used in these projects | Swift · AppKit · WebKit · SQLite · JavaScript · HTML/CSS · Git |
 | Academic work | C · C# · Python · Java · assembly · MATLAB |
 | Labs and systems | ARM Cortex-M3 / LPC1768 · Ubuntu · Wireshark · Cisco Packet Tracer |
+
+## Public activity
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/activity.en.mobile.static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/activity.en.static.svg">
+  <source media="(max-width: 600px)" srcset="assets/activity.en.mobile.svg">
+  <img src="assets/activity.en.svg" width="100%" alt="Public GitHub contributions over 365 days. Dated snapshot; daily refresh. The accessible totals and per-day counts are also in data/activity.json.">
+</picture>
+
+[Public calendar](https://github.com/S3rri-dev?tab=overview) · [Accessible data and source](docs/ACTIVITY.md#english). Contributions describe activity, not hours worked or code quality.
 
 ## Get in touch
 

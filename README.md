@@ -1,6 +1,11 @@
 <p align="right">Español · <a href="README.en.md">English</a></p>
 
-<img src="assets/header.svg" width="100%" alt="S3rri.dev · Software y sistemas. Modelar, construir, verificar.">
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/header.mobile.static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header.static.svg">
+  <source media="(max-width: 600px)" srcset="assets/header.mobile.svg">
+  <img src="assets/header.svg" width="100%" alt="S3rri.dev · Software y sistemas. Modelar, construir, verificar.">
+</picture>
 
 **Luis Serrano Cardoso** · Estudiante de Ingeniería Telemática en la Universidad de Alcalá.
 
@@ -78,6 +83,17 @@ Esa experiencia orienta mi interés por la integración, las comunicaciones y la
 | En estos proyectos | Swift · AppKit · WebKit · SQLite · JavaScript · HTML/CSS · Git |
 | Formación académica | C · C# · Python · Java · ensamblador · MATLAB |
 | Laboratorio y sistemas | ARM Cortex-M3 / LPC1768 · Ubuntu · Wireshark · Cisco Packet Tracer |
+
+## Actividad pública
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/activity.mobile.static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/activity.static.svg">
+  <source media="(max-width: 600px)" srcset="assets/activity.mobile.svg">
+  <img src="assets/activity.svg" width="100%" alt="Contribuciones públicas de GitHub durante 365 días. Captura fechada y actualización diaria. Totales accesibles y recuentos diarios también en data/activity.json.">
+</picture>
+
+[Calendario público](https://github.com/S3rri-dev?tab=overview) · [Datos accesibles y procedencia](docs/ACTIVITY.md). Las contribuciones describen actividad, no horas trabajadas ni calidad del código.
 
 ## Hablemos
 
