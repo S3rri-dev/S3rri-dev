@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" role="img" aria-labelledby="title desc">
+<title id="title">S3rri.dev · Software and systems</title>
+<desc id="desc">Black, deep red and gold identity. Model, build, verify.</desc>
+<rect width="1600" height="440" fill="#000000"/>
+<path d="M0 0h18v440H0z" fill="#8B1722"/>
+<path d="M80 63h1440" stroke="#302428" stroke-width="2"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="80" y="111" fill="#C5A05A" font-size="21" font-weight="700" letter-spacing="5">SOFTWARE / SYSTEMS</text>
+<text x="73" y="259" fill="#F7F3ED" font-size="148" font-weight="700" letter-spacing="-8">S3rri<tspan fill="#C5A05A" font-size="84" letter-spacing="-5">.dev</tspan></text>
+<text x="80" y="322" fill="#C7C1BE" font-size="27">Practical applications. Decisions open to review.</text>
+</g>
+<path d="M1100 116v208" stroke="#8B1722" stroke-width="3"/>
+<g font-family="Menlo,Consolas,monospace" font-size="23">
+<g fill="#C5A05A"><text x="1140" y="151">01</text><text x="1140" y="222">02</text><text x="1140" y="293">03</text></g>
+<g fill="#F7F3ED"><text x="1200" y="151">MODEL</text><text x="1200" y="222">BUILD</text><text x="1200" y="293">VERIFY</text></g>
+</g>
+<path d="M80 378h1440" stroke="#302428" stroke-width="2"/>
+<path d="M80 378h310" stroke="#8B1722" stroke-width="4"/>
+<circle cx="1520" cy="378" r="5" fill="#C5A05A"/>
+</svg>
