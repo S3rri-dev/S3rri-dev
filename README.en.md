@@ -59,12 +59,9 @@ Manual income, budgets, savings and debt. SQLite backups and CSV export.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
-<a href="https://github.com/S3rri-dev/umbral"><img src="https://raw.githubusercontent.com/S3rri-dev/umbral/v1.0.0/docs/images/welcome.png" alt="Umbral onboarding rendered from its SwiftUI interface" width="100%"></a>
-
-</td>
-<td width="50%" valign="top">
+<a href="https://github.com/S3rri-dev/umbral"><img src="https://raw.githubusercontent.com/S3rri-dev/umbral/v1.0.0/docs/images/welcome.png" alt="Umbral onboarding rendered from its SwiftUI interface" width="410" align="left"></a>
 
 ### 03 · Umbral
 

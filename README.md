@@ -59,12 +59,9 @@ Registro manual de ingresos, presupuestos, ahorro y deudas. Copias SQLite y expo
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
-<a href="https://github.com/S3rri-dev/umbral"><img src="https://raw.githubusercontent.com/S3rri-dev/umbral/v1.0.0/docs/images/welcome.png" alt="Bienvenida de Umbral renderizada desde su interfaz SwiftUI" width="100%"></a>
-
-</td>
-<td width="50%" valign="top">
+<a href="https://github.com/S3rri-dev/umbral"><img src="https://raw.githubusercontent.com/S3rri-dev/umbral/v1.0.0/docs/images/welcome.png" alt="Bienvenida de Umbral renderizada desde su interfaz SwiftUI" width="410" align="left"></a>
 
 ### 03 · Umbral
 
