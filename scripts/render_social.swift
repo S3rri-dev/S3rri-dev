@@ -21,7 +21,8 @@ func text(_ value: String, _ x: CGFloat, _ y: CGFloat, _ size: CGFloat, _ fill: 
 let cards: [(file: String, title: String, subtitle: String, detail: String, index: String)] = [
     ("social-profile", "S3rri.dev", "Desarrollo de software y sistemas.", "PROYECTOS / DECISIONES / VERIFICACIÓN", "DEV"),
     ("social-nodal", "Nodal", "Calendario, estudio y notas. En tu Mac.", "SWIFT / APPKIT / WEBKIT / SQLITE", "01"),
-    ("social-caudal", "Caudal", "Tu dinero, con perspectiva. En tu Mac.", "SWIFT / APPKIT / WEBKIT / SQLITE", "02")
+    ("social-caudal", "Caudal", "Tu dinero, con perspectiva. En tu Mac.", "SWIFT / APPKIT / WEBKIT / SQLITE", "02"),
+    ("social-umbral", "Umbral", "Tu catálogo de utilidades en la barra de menús.", "SWIFTUI / APPKIT / APPLE SILICON", "03")
 ]
 for card in cards {
     let bitmap = NSBitmapImageRep(bitmapDataPlanes: nil, pixelsWide: 1280, pixelsHigh: 640, bitsPerSample: 8, samplesPerPixel: 4, hasAlpha: true, isPlanar: false, colorSpaceName: .deviceRGB, bytesPerRow: 0, bitsPerPixel: 0)!

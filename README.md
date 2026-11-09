@@ -58,14 +58,37 @@ Registro manual de ingresos, presupuestos, ahorro y deudas. Copias SQLite y expo
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/S3rri-dev/umbral"><img src="https://raw.githubusercontent.com/S3rri-dev/umbral/v1.0.0/docs/images/welcome.png" alt="Bienvenida de Umbral renderizada desde su interfaz SwiftUI" width="100%"></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 03 · Umbral
+
+**Catálogo nativo de utilidades para Mac.**
+
+Bienvenida guiada, búsqueda y acceso rápido desde la barra de menús.
+
+**Reto técnico.** Navegación compartida entre el panel y la ventana del catálogo.
+
+`SwiftUI` `AppKit` `SwiftPM` `Apple Silicon`
+
+**[Caso técnico](proyectos/umbral.md)** · [Código](https://github.com/S3rri-dev/umbral) · [Descarga](https://github.com/S3rri-dev/umbral/releases/latest)
+
+</td>
+</tr>
 </table>
 
-Las imágenes muestran datos ficticios. Las dos descargas empiezan vacías. Cada repositorio documenta instalación, firma, pruebas y límites de su versión vigente.
+Las capturas de Nodal y Caudal usan datos ficticios. Cada repositorio documenta la instalación, la firma y las comprobaciones de su versión publicada.
 
 ## Qué puedes revisar
 
 - **Diseño de dominio.** Reglas y estados explícitos, con validación en el almacén. [Importaciones de Nodal](https://github.com/S3rri-dev/nodal/blob/main/Sources/Import.swift).
 - **Integración.** Interfaz WebKit, puente Swift y SQLite del sistema. [Arquitectura de Nodal](https://github.com/S3rri-dev/nodal/blob/main/docs/ARCHITECTURE.md).
+- **Integración con macOS.** Selección compartida entre el panel rápido y la ventana SwiftUI. [Panel de Umbral](https://github.com/S3rri-dev/umbral/blob/v1.0.0/Sources/MacUtilities/QuickPanel.swift).
 - **Verificación.** Comprobaciones reproducibles, resultados y límites documentados. [Pruebas de Caudal](https://github.com/S3rri-dev/caudal/blob/main/tests/main.swift).
 
 Son proyectos personales desarrollados con asistencia de IA. El código, las decisiones y las comprobaciones están disponibles para revisión; el estado de CI se consulta en cada repositorio.
@@ -80,7 +103,7 @@ Esa experiencia orienta mi interés por la integración, las comunicaciones y la
 
 | Contexto | Tecnologías |
 | --- | --- |
-| En estos proyectos | Swift · AppKit · WebKit · SQLite · JavaScript · HTML/CSS · Git |
+| En estos proyectos | Swift · SwiftUI · AppKit · WebKit · SQLite · JavaScript · HTML/CSS · Git |
 | Formación académica | C · C# · Python · Java · ensamblador · MATLAB |
 | Laboratorio y sistemas | ARM Cortex-M3 / LPC1768 · Ubuntu · Wireshark · Cisco Packet Tracer |
 

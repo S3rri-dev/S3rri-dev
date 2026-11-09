@@ -58,14 +58,37 @@ Manual income, budgets, savings and debt. SQLite backups and CSV export.
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/S3rri-dev/umbral"><img src="https://raw.githubusercontent.com/S3rri-dev/umbral/v1.0.0/docs/images/welcome.png" alt="Umbral onboarding rendered from its SwiftUI interface" width="100%"></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 03 · Umbral
+
+**A native utility catalogue for Mac.**
+
+Guided setup, search and quick access from the menu bar.
+
+**Engineering focus.** Shared navigation between the menu bar panel and the catalogue window.
+
+`SwiftUI` `AppKit` `SwiftPM` `Apple Silicon`
+
+**[Technical case study](proyectos/umbral.md#english)** · [Source](https://github.com/S3rri-dev/umbral) · [Download](https://github.com/S3rri-dev/umbral/releases/latest)
+
+</td>
+</tr>
 </table>
 
-Screenshots use fictional data. Both downloads start empty. Their repositories document installation, signing, verification and current limitations.
+Nodal and Caudal screenshots use fictional data. Each repository documents installation, signing and verification for its published release.
 
 ## What you can inspect
 
 - **Domain design.** Explicit rules and states, validated in the store. [Nodal imports](https://github.com/S3rri-dev/nodal/blob/main/Sources/Import.swift).
 - **Integration.** A WebKit interface connected to Swift and system SQLite. [Nodal architecture](https://github.com/S3rri-dev/nodal/blob/main/docs/ARCHITECTURE.md).
+- **macOS integration.** Shared category selection between the quick panel and the SwiftUI window. [Umbral panel](https://github.com/S3rri-dev/umbral/blob/v1.0.0/Sources/MacUtilities/QuickPanel.swift).
 - **Verification.** Reproducible checks, recorded results and known limitations. [Caudal tests](https://github.com/S3rri-dev/caudal/blob/main/tests/main.swift).
 
 These are personal projects developed with AI assistance. Source, design decisions and verification are open to review; CI status is available in each repository.
@@ -80,7 +103,7 @@ This experience informs my interest in integration, communications and systems t
 
 | Context | Technologies |
 | --- | --- |
-| Used in these projects | Swift · AppKit · WebKit · SQLite · JavaScript · HTML/CSS · Git |
+| Used in these projects | Swift · SwiftUI · AppKit · WebKit · SQLite · JavaScript · HTML/CSS · Git |
 | Academic work | C · C# · Python · Java · assembly · MATLAB |
 | Labs and systems | ARM Cortex-M3 / LPC1768 · Ubuntu · Wireshark · Cisco Packet Tracer |
 
