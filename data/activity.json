@@ -2,16 +2,11 @@
   "account": "S3rri-dev",
   "source": "https://github.com/users/S3rri-dev/contributions",
   "visibility": "anonymous-public-calendar",
-  "through": "2026-11-24",
-  "fetched_at": "2026-11-24T07:47:30+00:00",
+  "through": "2026-11-25",
+  "fetched_at": "2026-11-25T07:51:03+00:00",
   "total": 27,
   "active_days": 3,
   "days": [
-    {
-      "date": "2025-11-25",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-11-26",
       "count": 0,
@@ -1829,6 +1824,11 @@
     },
     {
       "date": "2026-11-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-25",
       "count": 0,
       "level": 0
     }
